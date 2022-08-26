@@ -5,13 +5,14 @@ import About from './Pages/About';
 import Portfolio from './Pages/Portfolio';
 import Resume from './Pages/Resume';
 import ContactMe from './Pages/Contact';
-import Nav from './Navbar';
+// import Nav from './Navbar';
+import Layout from "./components/layout/Layout.js"
 
 function App() {
   return (
    
     <Router>
-      <Nav />
+      <Layout>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -20,6 +21,7 @@ function App() {
         <Route path="/contact" element={<ContactMe />} />
        
       </Routes>
+      </Layout>
     </Router>
     
   );
