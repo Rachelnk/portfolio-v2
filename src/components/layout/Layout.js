@@ -1,9 +1,9 @@
 import classes from './Layout.module.css';
-import MainNavigation from './MainNavigation';
+import Nav from './MainNavigation';
 function Layout(props){
   return (
     <div>
-      <MainNavigation />
+      <Nav />
       <main className={classes.main}>
         {props.children}
       </main>

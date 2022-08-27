@@ -3,11 +3,11 @@ import classes from './MainNavigation.module.css';
 
 
 function Nav() {
-  return (  
-    <header className=''>
-    <div>
+  return (    
+    <>
      
-  <nav>
+    <div className={classes.sidenav}>   
+ 
     <ul>
       <li><Link to= "/">Home</Link></li>
       <li><Link to="/about">About Me</Link></li>
@@ -15,10 +15,12 @@ function Nav() {
       <li><Link to="/resume">Resume</Link></li>
       <li><Link to="contact">Contact Me</Link></li>
     </ul>     
-  </nav>
+ 
    
   </div>
-  </header>
+ 
+    </>
+    
   )
  
   

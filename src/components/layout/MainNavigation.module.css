@@ -1,0 +1,17 @@
+.sidenav {
+  width: 200px;
+}
+.sidenav li {
+  
+    height: 100%;
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    float: left;
+  
+}
+h1{
+  color: white;
+}
