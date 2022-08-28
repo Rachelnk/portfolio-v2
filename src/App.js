@@ -14,20 +14,26 @@ function App() {
     <>
     <div>
      
-     <nav className='navbar navbar-expand-sm navbar-dark fixed-top'>
+     <nav className='navbar navbar-expand-sm navbar-dark sticky-top'>
         <div className='container-fluid'>
-          <a class="navbar-brand" href="#home">Rachel. <span >nk</span> </a>
+          <a class="navbar-brand" href="#home"><span className='dev-name1'>Rachel.</span><span className='dev-name2'>nk</span> </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                  <ul className='navbar-nav'>       
-                  
-                  <li className='nav-item'><a class="nav-link" href="#about">About</a></li>
-                  <li className='nav-item'><a class="nav-link" href="#education">Education</a></li>
-                  <li className='nav-item'><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                  <li className='nav-item'><a class="nav-link" href="#contact">Contact</a></li>
-                </ul> 
+            <div className='nav-items'>
+                    <ul className='navbar-nav '> 
+                    
+                    <li className='nav-item'><a class="nav-link" href="#about">About</a></li>
+                      <li className='nav-item'><a class="nav-link" href="#education">Education</a></li>
+                      <li className='nav-item'><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                      <li className='nav-item'><a class="nav-link" href="#contact">Contact</a></li>
+                      
+                      
+                    </ul>
+                     </div> 
+                 
+                 
             </div>
         
         </div>

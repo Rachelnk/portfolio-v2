@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.dev-name1, .dev-name2{
+  font-size: 40px;
+}
+.dev-name2{
+  
+  color:#6cebeb;
+}
+.nav-item {
+  float: right;
+  font-size: 30px;
+
+
+}
+/* .nav-items {} */
