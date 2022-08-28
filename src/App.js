@@ -14,7 +14,7 @@ function App() {
     <>
     <div>
      
-     <nav className='navbar navbar-expand-sm navbar-dark'>
+     <nav className='navbar navbar-expand-sm navbar-dark fixed-top'>
         <div className='container-fluid'>
           <a class="navbar-brand" href="#home">Rachel. <span >nk</span> </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
