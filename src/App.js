@@ -14,17 +14,32 @@ function App() {
     <>
     <div>
      
-     <nav>
-       <ul>
-         <li><a href="#contact">Contact</a></li>
-       </ul>     
+     <nav className='navbar navbar-expand-sm navbar-dark'>
+        <div className='container-fluid'>
+          <a class="navbar-brand" href="#home">Rachel. <span >nk</span> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul className='navbar-nav'>       
+                  
+                  <li className='nav-item'><a class="nav-link" href="#about">About</a></li>
+                  <li className='nav-item'><a class="nav-link" href="#education">Education</a></li>
+                  <li className='nav-item'><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                  <li className='nav-item'><a class="nav-link" href="#contact">Contact</a></li>
+                </ul> 
+            </div>
+        
+        </div>
+           
      </nav>
       
      </div>
-    <Home />
-    <About />
-    <Education />
-    <Portfolio />
+    <div id='home'><Home /></div>
+    <div id='about'> <About /> </div>   
+    <div id='education'> <Education /> </div> 
+    <div id='portfolio'> <Portfolio /> </div> 
+    
     <div id="contact"><ContactMe /></div>
     
     </>
