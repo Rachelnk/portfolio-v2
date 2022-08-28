@@ -15,7 +15,7 @@ both front-end and back-end <br></br>
 software development.</p>
 </div>
 <div>
-<button>  My Portfolio</button> <button>Contact Me</button>
+<button className='home-btn'>  My Portfolio</button> <button className='home-btn'>Contact Me</button>
 </div>
     </div>
     <div className='col-md-2' ></div>

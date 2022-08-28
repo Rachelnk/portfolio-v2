@@ -2,8 +2,11 @@ import './About.css'
 function About () {
   return (
     <>
-    <h1>About Me</h1>
-   <div>
+    <div className='row'>
+      <div className='col-md-2'></div>
+      <div className='col-md-5'>
+      <h1>About Me</h1>
+      <div>
    <p>
     I’m a Kenyan based <br></br> 
     fullstack software  
@@ -15,7 +18,10 @@ APIs.
     </p>
 
    </div>
-   <div>
+   
+      </div>
+      <div className='col-md-5'>
+      <div>
     <button className="tech">HTML</button> <button className="tech">CSS</button>
     <button className="tech">Javascript</button> <button className="tech">Angular</button>
     <button className="tech">React</button> <button className="tech">Python</button>
@@ -24,6 +30,11 @@ APIs.
     <button className="tech">SQLAlchemy</button><button className="tech">PostgreSQL</button>
     {/* <button className="tech"></button><button className="tech"></button> */}
    </div>
+      </div>
+    </div>
+
+    
+   
     
     </>
   )

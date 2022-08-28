@@ -4,3 +4,12 @@
 .intro {
   float: center;
 }
+.home-btn {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #6cebeb;
+  border-radius: 30px;
+  border-width: 3px;
+
+
+}
