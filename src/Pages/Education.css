@@ -6,3 +6,9 @@ a{
   color: white;
   text-decoration: none;
 }
+.verticalline {
+  height: 300px;
+  border-left: 3px solid #6cebeb;
+  position: absolute;
+  /* left: 50%; */
+}

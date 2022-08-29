@@ -41,12 +41,16 @@ function App() {
      </nav>
       
      </div>
-    <div id='home'><Home /></div>
+     <div className='container'>
+     <div id='home'><Home /></div>
     <div id='about'> <About /> </div>   
     <div id='education'> <Education /> </div> 
     <div id='portfolio'> <Portfolio /> </div> 
     
     <div id="contact"><ContactMe /></div>
+
+     </div>
+    
     
     </>
     
