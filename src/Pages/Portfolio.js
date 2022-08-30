@@ -5,6 +5,15 @@ import github from '../icons/github.png';
 import link from '../icons/link.png';
 import hood from '../portfolio/hood1.png';
 import awards from '../portfolio/projectawards.png';
+import gallery from '../portfolio/gallery.png';
+import pitch from '../portfolio/oneminute.png';
+import newsapp from '../portfolio/newsapp.png';
+import quotes from  '../portfolio/quotes.png';
+import reposearch from '../portfolio/reposearch.png';
+import delani from '../portfolio/delani.png'
+// import pizza from '../portfolio.delani.png'
+// import akan from '../portfolio/delani.png'
+
 
 
 function Portfolio () {
@@ -67,7 +76,7 @@ function Portfolio () {
                   </div>
                   <div className='card-footer'>
                     <a href='https://github.com/Rachelnk/Fund-Flow'> <img src={github} alt="github" width={30}/> </a>
-                    <a href='rachelnk.github.io/fund-flow'> <img src={link} alt="site link" width={30}/> </a>
+                    <a href='https://rachelnk.github.io/fund-flow'> <img src={link} alt="site link" width={30}/> </a>
                   
                   </div>
 
@@ -86,7 +95,7 @@ function Portfolio () {
                   </div>
                   <div className='card-footer'>
                     <a href='https://github.com/Rachelnk/NeighborhoodWatch'> <img src={github} alt="github" width={30}/> </a>
-                    <a href='jirani-connect.herokuapp.com/'> <img src={link} alt="site link" width={30}/> </a>
+                    <a href='https://jirani-connect.herokuapp.com/'> <img src={link} alt="site link" width={30}/> </a>
                   
                   </div>
 
@@ -105,7 +114,7 @@ function Portfolio () {
                   </div>
                   <div className='card-footer'>
                     <a href='https://github.com/Rachelnk/ProjectAwards'> <img src={github} alt="github" width={30}/> </a>
-                    <a href='tech-project-awards.herokuapp.com/'> <img src={link} alt="site link" width={30}/> </a>
+                    <a href='https://tech-project-awards.herokuapp.com/'> <img src={link} alt="site link" width={30}/> </a>
                   
                   </div>
 
@@ -114,17 +123,37 @@ function Portfolio () {
           <div className='col-md-4'>
             <div className='card'>
               <div className='card-header'>
-                <h5 className='port-heading'>Instagram Clone</h5>
+                <h5 className='port-heading'>Kiarie's Gallery</h5>
               </div>
                 <div className='card-body'>
                     
-                    <img src={insta} alt='insta-project' className='card-img-top image-resize'/>
+                    <img src={gallery} alt='insta-project' className='card-img-top image-resize'/>
                       <h5 className='languages'>HTML/CSS/JS/DJANGO</h5>
                       <button className='portfolio-more'>More</button>
                   </div>
                   <div className='card-footer'>
-                    <a href='https://github.com/Rachelnk/Instagram-Clone'> <img src={github} alt="github" width={30}/> </a>
-                    <a href='https://the-gram-connect.herokuapp.com/'> <img src={link} alt="site link" width={30}/> </a>
+                    <a href='https://github.com/Rachelnk/Kiaries-Gallery'> <img src={github} alt="github" width={30}/> </a>
+                    <a href='https://kiaries-gallery.herokuapp.com/'> <img src={link} alt="site link" width={30}/> </a>
+                  
+                  </div>
+
+            </div>
+          </div>
+
+          <div className='col-md-4'>
+            <div className='card'>
+              <div className='card-header'>
+                <h5 className='port-heading'>One Minute Pitch</h5>
+              </div>
+                <div className='card-body'>
+                    
+                    <img src={pitch} alt='insta-project' className='card-img-top image-resize'/>
+                      <h5 className='languages'>HTML/CSS/JS/FLASK</h5>
+                      <button className='portfolio-more'>More</button>
+                  </div>
+                  <div className='card-footer'>
+                    <a href='https://github.com/Rachelnk/OneMinutePitch'> <img src={github} alt="github" width={30}/> </a>
+                    <a href='https://one-minutepitch.herokuapp.com/'> <img src={link} alt="site link" width={30}/> </a>
                   
                   </div>
 
