@@ -7,14 +7,13 @@ return (
     <div className='col-md-8' >
     <div className="intro">
 
-<h1 className='greetings'>Hi, there.</h1>
-<p className=''>I'm <span className='name-stack'>Rachael, <br></br>
-a fullstack software engineer <br></br> </span> 
-specialized in<br></br>
-both front-end and back-end <br></br>
-software development.</p>
+<h1 className='greetings' style={{fontSize: '20px', paddingTop:'30px'}}> Hi, my name is,</h1>
+<p style={{fontSize: '40px'}} className=''><span style={{color: '#6cebeb', paddingTop:'40px'}}>Rachel Kiarie. </span> <br></br>
+<span style={{color: '#6cebeb', paddingTop:'30px', paddingBottom:'100px'}}> A Fullstack Software Developer. <br></br> </span> 
+Specializing in both<br></br>
+ <b>front-end and back-end</b> software development.</p>
 </div>
-<div>
+<div style={{paddingBottom: '40px'}}>
 <button className='home-btn'>  My Portfolio</button> <button className='home-btn'>Contact Me</button>
 </div>
     </div>

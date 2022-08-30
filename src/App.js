@@ -12,6 +12,7 @@ import ContactMe from './Pages/Contact';
 function App() {
   return (
     <>
+    <div className='container'>
     <div>
      
      <nav className='navbar navbar-expand-sm navbar-dark sticky-top'>
@@ -21,7 +22,7 @@ function App() {
             <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <div className='nav-items'>
+            <div className='nav-items' style={{float: 'right'}}>
                     <ul className='navbar-nav '> 
                     
                     <li className='nav-item'><a class="nav-link" href="#about">About</a></li>
@@ -41,7 +42,7 @@ function App() {
      </nav>
       
      </div>
-     <div className='container'>
+     {/* <div className='container'> */}
      <div id='home'><Home /></div>
     <div id='about'> <About /> </div>   
     <div id='education'> <Education /> </div> 

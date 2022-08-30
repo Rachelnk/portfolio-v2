@@ -1,13 +1,15 @@
-import './About.css'
+import './About.css';
+import avatar from '../icons/user.png';
 function About () {
   return (
     <>
     <div className='row'>
-      <div className='col-md-2'></div>
-      <div className='col-md-5'>
-      <h1>About Me</h1>
+      
+      <h1 style={{paddingBottom: '20px'}}>About Me</h1>
+      <div className='col-md-6'>
+     
       <div>
-   <p>
+   <p style={{fontSize: '30px'}}>
     I’m a Kenyan based <br></br> 
     fullstack software  
 developer with a passion <br></br> for
@@ -20,14 +22,15 @@ APIs.
    </div>
    
       </div>
-      <div className='col-md-5'>
+      <div className='col-md-6'>
       <div>
-    <button className="tech">HTML</button> <button className="tech">CSS</button>
+        <img src={avatar} alt='avatar' width={250}  />
+    {/* <button className="tech">HTML</button> <button className="tech">CSS</button>
     <button className="tech">Javascript</button> <button className="tech">Angular</button>
     <button className="tech">React</button> <button className="tech">Python</button>
     <button className="tech">Python</button> <button className="tech">Django</button>
     <button className="tech">Django REST Framework</button> <button className="tech">Flask</button>
-    <button className="tech">SQLAlchemy</button><button className="tech">PostgreSQL</button>
+    <button className="tech">SQLAlchemy</button><button className="tech">PostgreSQL</button> */}
     {/* <button className="tech"></button><button className="tech"></button> */}
    </div>
       </div>

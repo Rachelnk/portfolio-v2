@@ -1,3 +1,22 @@
 .card {
-  background-color: grey;
+  background-color: hsl(264,34%,45%);
+  margin-bottom: 15px;
+}
+
+.card-footer{
+  text-align: right;
+  color: white;
+}
+.languages{
+  padding-top:20px;
+}
+.port-heading{
+  text-align: center;
+}
+.portfolio-more {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #6cebeb;
+  /* border-radius: 30px; */
+  border-width: 3px;
 }
