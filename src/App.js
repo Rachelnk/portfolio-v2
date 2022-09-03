@@ -1,74 +1,67 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Portfolio from './Pages/Portfolio';
 import Education from './Pages/Education';
 import ContactMe from './Pages/Contact';
-// import Nav from './Navbar';
-// import Layout from "./components/layout/Layout.js"
+import github from './icons/github.png';
+import linkedin from './icons/linkedin .png'
+import resume from './portfolio/Resume.pdf'
+import email from './icons/email.png'
 
 function App() {
   return (
     <>
-    <div className='container'>
-    <div>
+    {/* className='col-md-12 container' */}
+   
      
-     <nav className='navbar navbar-expand-sm navbar-dark sticky-top'>
-        <div className='container-fluid'>
+     <nav className='navbar navbar-expand-lg navbar-dark sticky-top'>
+        <div class="container-fluid">
           <a class="navbar-brand" href="#home"><span className='dev-name1'>Rachel.</span><span className='dev-name2'>nk</span> </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <div className='nav-items' style={{float: 'right'}}>
-                    <ul className='navbar-nav '> 
+            
+                    <ul className='navbar-nav mx-auto >'> 
                     
-                    <li className='nav-item'><a class="nav-link" href="#about">About</a></li>
-                      <li className='nav-item'><a class="nav-link" href="#education">Education</a></li>
-                      <li className='nav-item'><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                      <li className='nav-item'><a class="nav-link" href="#contact">Contact</a></li>
+                    <li className='nav-item' style={{fontSize: '30px', padding: '0 20px', paddingTop: '10px !important'}}><a class="nav-link" href="#about">About</a></li>
+                      <li className='nav-item' style={{fontSize: '30px', padding: '0 20px', paddingTop: '10px !important'}}><a class="nav-link" href="#education">Education</a></li>
+                      <li className='nav-item' style={{fontSize: '30px', padding: '0 20px', paddingTop: '10px !important'}}><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                      <li className='nav-item' style={{fontSize: '30px', padding: '0 20px', paddingTop: '10px !important'}}><a class="nav-link" href="#contact">Contact</a></li>
+                      <li className='nav-item' style={{fontSize: '30px', padding: '0 20px', paddingTop: '10px !important'}}><a class="nav-link" href={resume} target="_blank" style={{border:'1px solid #6cebeb', justifyContent: 'center'}} rel="noreferrer">Resume</a></li>
                       
                       
                     </ul>
-                     </div> 
+                     
                  
                  
-            </div>
-        
-        </div>
+            </div>    
+          </div>       
            
      </nav>
       
-     </div>
-     {/* <div className='container'> */}
-     <div id='home'><Home /></div>
-    <div id='about'> <About /> </div>   
-    <div id='education'> <Education /> </div> 
-    <div id='portfolio'> <Portfolio /> </div> 
     
-    <div id="contact"><ContactMe /></div>
-
-     </div>
+     <div className='container'>
+        <div id='home'><Home /></div>
+        <div id='about'> <About /> </div>   
+        <div id='education'> <Education /> </div> 
+        <div id='portfolio'> <Portfolio /> </div> 
+        
+        <div id="contact"><ContactMe /></div>
+      </div>
+      <div className='social-icons'>
+      <span style={{color: 'white'}}><a href='https://github.com/Rachelnk' > <img src={linkedin} alt='' width='40' style={{marginBottom:'10px'}}/> </a></span>
+        <a href='https://www.linkedin.com/in/rachael-kiarie/'><img src={github} alt='' width='40'/> </a>
+        <a href='mailto:rachelnk94@gmail.com'><img src={email} alt='' width='40'/></a>
+        <div class="line" style={{color: 'white'}}></div>
+      </div>
+     {/* </div> */}
+     
     
     
     </>
-    
-
-   
-    // <Router>
-    //   <Nav />
-    //   <Routes>
-    //     <Route path="/" element={<Home />} />
-    //     <Route path="/about" element={<About />} />
-    //     <Route path="/portfolio" element={<Portfolio />} />
-    //     <Route path="/resume" element={<Resume />} />
-    //     <Route path="/contact" element={<ContactMe />} />
-       
-    //   </Routes>
-     
-    // </Router>
     
   );
 }
