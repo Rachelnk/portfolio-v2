@@ -10,10 +10,11 @@ import pitch from '../portfolio/oneminute.png';
 import newsapp from '../portfolio/newsapp.png';
 import quotes from  '../portfolio/quotes.png';
 import reposearch from '../portfolio/reposearch.png';
-import delani from '../portfolio/delani.png'
+import delani from '../portfolio/delani.png';
+import pizza from '../portfolio/pizzaApp.png';
 import { Tabs, Tab } from 'react-bootstrap';
 import { useState } from 'react';
-// import pizza from '../portfolio.delani.png'
+
 // import akan from '../portfolio/delani.png'
 
 
@@ -23,9 +24,9 @@ function Portfolio () {
   
   return(
     <>
-    <h1 style={{textAlign: 'center'}} className='heading'>Portfolio</h1>
+    <h1 style={{textAlign: 'center'}} className='heading w3-animate-left'>Portfolio</h1>
     
-    <div className='row'>
+    <div className='row w3-animate-left'>
       <div className='col-md-12'> 
    
     <Tabs activeKey={tabKey} onSelect={(e) => initTabKey(e)}>
@@ -235,7 +236,7 @@ function Portfolio () {
               </div>
                 <div className='card-body'>
                     
-                    <img src={delani} alt='pizza app' className='card-img-top image-resize'/>
+                    <img src={pizza} alt='pizza app' className='card-img-top image-resize'/>
                     <p className='project-details'>This is a pizza restaurant website whereby users can view the menu for the pizza flavors available, their prices and make orders.</p>
                       <h5 className='languages'>html | css | js | jquery</h5>
                     </div>

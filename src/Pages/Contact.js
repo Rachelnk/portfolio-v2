@@ -6,8 +6,8 @@ import email from '../icons/email.png'
 function ContactMe () {
   return (
     <div>
-      <h1 style={{textAlign: 'center'}} className='heading'>Contact</h1>
-    <div className=''>
+      <h1 style={{textAlign: 'center'}} className='heading w3-animate-right'>Contact</h1>
+    <div className='w3-animate-right'>
     <h3 className='contact-info'style={{fontSize: '20px'}}>Glad you made it this far.</h3>
       <p className='contact-info' style={{fontSize: '25px', margin: '20px'}}>I do hope my portfolio up until this point was not a waste of your time. Do consider me for future jobs and opportunities.</p>
      <div className='text-center' style={{paddingBottom: '25px'}}>

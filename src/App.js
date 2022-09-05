@@ -51,7 +51,7 @@ function App() {
         
         <div id="contact"><ContactMe /></div>
       </div>
-      <div className='social-icons'>
+      <div className='social-icons w3-animate-bottom'>
       <span style={{color: 'white'}}><a href='https://github.com/Rachelnk' > <img src={linkedin} alt='' width='40' style={{marginBottom:'10px'}}/> </a></span>
         <a href='https://www.linkedin.com/in/rachael-kiarie/'><img src={github} alt='' width='40'/> </a>
         <a href='mailto:rachelnk94@gmail.com'><img src={email} alt='' width='40'/></a>

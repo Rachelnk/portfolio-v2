@@ -3,9 +3,9 @@ import './Education.css';
 function Education(){
   return(
     <>
-     <h1 className='heading' style={{textAlign: "center", paddingBottom: '10px', paddingTop: '10px'}}>Education And Work Experience</h1>
+     <h1 className='heading w3-animate-left' style={{textAlign: "center", paddingBottom: '10px', paddingTop: '10px'}}>Education And Work Experience</h1>
          
-    <div className='row'>
+    <div className='row w3-animate-left'>
     <h3 style={{textDecoration: "underline", marginBottom:'20px', textAlign: 'center'}}>Work Experience</h3>
        
       
@@ -90,7 +90,7 @@ Crimping)</li>
       </div>
 
     </div>
-    <div className='row'>
+    <div className='row w3-animate-right'>
     <h3 style={{textDecoration: "underline", marginBottom:'20px', textAlign: 'center'}}>Education</h3>
    
       <div className='col-md-6'>

@@ -6,11 +6,11 @@ function About () {
     <>
     <div className='row'>
       
-      <h1 className='heading' style={{paddingBottom:'20px', textAlign:'center'}}>About Me</h1>
+      <h1 className='heading w3-animate-left' style={{paddingBottom:'20px', textAlign:'center'}}>About Me</h1>
       <div className='col-md-6'>
      
       <div>
-   <p style={{fontSize: '30px', display: 'block'}}>    
+   <p style={{fontSize: '30px', display: 'block'}} className='w3-animate-left'>    
 I’m a Kenyan based fullstack software  
 developer with a passion for
 creating clean, dynamic and responsive 
@@ -23,7 +23,7 @@ APIs.
    
       </div>
       <div className='col-md-6'>
-      <div className=''>
+      <div className='w3-animate-right'>
         <img src={kiarie} alt='avatar' width={300}  />
     </div>
       </div>
