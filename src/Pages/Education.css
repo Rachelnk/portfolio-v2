@@ -23,3 +23,8 @@ a{
   border-radius: 20px;
   padding: 20px;
 }
+.description-list {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 20px;
+  color: white;
+}
