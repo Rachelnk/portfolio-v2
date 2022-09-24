@@ -101,3 +101,10 @@ p{
 a:hover{
   color:#6cebeb;
 }
+a{
+text-decoration: none;
+}
+.card {
+  background-color: hsl(264,34%,45%);
+  margin-bottom: 15px;
+}
