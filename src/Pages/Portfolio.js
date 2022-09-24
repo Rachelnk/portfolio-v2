@@ -33,7 +33,7 @@ function Portfolio () {
         <Tab eventKey='fullstack' title='Full Stack'>
         <div className='row'>
         <div className='col-md-4' >
-            <div className='card'>
+            <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)'}}>
               <div className='card-header'>
                 <h5 className='port-heading'>Fund Flow- Automated Donation</h5>
               </div>
@@ -56,7 +56,7 @@ function Portfolio () {
         <Tab eventKey='django' title='Django' className='tabname'>
         <div className='row'>
         <div className='col-md-4'>
-            <div className='card'>
+            <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)'}}>
               <div className='card-header'>
                 <h5 className='port-heading'>The Gram Connect</h5>
               </div>
@@ -75,7 +75,7 @@ function Portfolio () {
             </div>
           </div>
           <div className='col-md-4 '>
-            <div className='card'>
+            <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)'}}>
               <div className='card-header'>
                 <h5 className='port-heading'> NeighborhoodWatch - Jirani Connect</h5>
               </div>
@@ -94,7 +94,7 @@ function Portfolio () {
             </div>
           </div>
           <div className='col-md-4'>
-            <div className='card'>
+            <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)'}}>
               <div className='card-header'>
                 <h5 className='port-heading'>Tech Project Awards</h5>
               </div>
@@ -113,7 +113,7 @@ function Portfolio () {
             </div>
           </div>
           <div className='col-md-4'>
-            <div className='card'>
+            <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)'}}>
               <div className='card-header'>
                 <h5 className='port-heading'>Kiarie's Gallery</h5>
               </div>
@@ -138,7 +138,7 @@ function Portfolio () {
         <Tab eventKey='flask' title='Flask'>
         <div className='row'>
         <div className='col-md-4'>
-            <div className='card'>
+            <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)'}}>
               <div className='card-header'>
                 <h5 className='port-heading'>One Minute Pitch</h5>
               </div>
@@ -157,7 +157,7 @@ function Portfolio () {
             </div>
           </div>
           <div className='col-md-4'>
-            <div className='card'>
+            <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)'}}>
               <div className='card-header'>
                 <h5 className='port-heading'>NewsApp</h5>
               </div>
@@ -182,7 +182,7 @@ function Portfolio () {
         <Tab eventKey='angular' title='Angular'>
             <div className='row'>
             <div className='col-md-4'>
-            <div className='card'>
+            <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)'}}>
               <div className='card-header'>
                 <h5 className='port-heading'>Github Repo Search</h5>
               </div>
@@ -201,7 +201,7 @@ function Portfolio () {
             </div>
           </div>
           <div className='col-md-4'>
-            <div className='card'>
+            <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)'}}>
               <div className='card-header'>
                 <h5 className='port-heading'>Quotes Generator</h5>
               </div>
@@ -230,7 +230,7 @@ function Portfolio () {
         <Tab eventKey='html' title='Html, Css & JS'>
             <div className='row'>
             <div className='col-md-4'>
-            <div className='card'>
+            <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)'}}>
               <div className='card-header'>
                 <h5 className='port-heading'>Kiarie's Pizza Joint</h5>
               </div>
@@ -249,7 +249,7 @@ function Portfolio () {
             </div>
           </div>
           <div className='col-md-4'>
-            <div className='card'>
+            <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)'}}>
               <div className='card-header'>
                 <h5 className='port-heading'>Delani Studio</h5>
               </div>
