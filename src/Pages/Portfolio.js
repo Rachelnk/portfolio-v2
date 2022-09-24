@@ -242,7 +242,7 @@ function Portfolio () {
                     </div>
                   <div className='card-footer'>
                     <a href="https://github.com/Rachelnk/Pizza-Application"> <img src={github} alt="github" width={30}/> </a>
-                    <a href="https://rachelnk.github.io/Pizza-Application/"> <img src={link} alt="site link" width={30}/> </a>
+                    <a href="https://kiaries-pizza-joint.netlify.app/"> <img src={link} alt="site link" width={30}/> </a>
                   
                   </div>
 
