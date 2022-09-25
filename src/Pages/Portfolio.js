@@ -24,7 +24,8 @@ function Portfolio () {
   
   return(
     <>
-    <h1 style={{textAlign: 'center'}} className='heading w3-animate-left'>Portfolio</h1>
+    {/* style={{fontFamily: 'Libre Caslon Text, serif'}} */}
+    <h1 style={{textAlign: 'center', fontFamily: 'Libre Caslon Text, serif'}} className='heading w3-animate-left'>Portfolio</h1>
     
     <div className='row w3-animate-left'>
       <div className='col-md-12'> 
@@ -35,13 +36,13 @@ function Portfolio () {
         <div className='col-md-4' >
             <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)',  marginTop: '10px'}}>
               <div className='card-header'>
-                <h5 className='port-heading'>Fund Flow- Automated Donation</h5>
+                <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='port-heading'>Fund Flow- Automated Donation</h5>
               </div>
                 <div className='card-body'>
                     
                     <img src={fund} alt='fund-flow' className='card-img-top image-resize'/>
                     <p className='project-details'>This is an automated donation's platform whereby donors can donate to a charity of their choice.</p>
-                      <h5 className='languages'>angular | django</h5>
+                      <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='languages'>angular | django</h5>
                   </div>
                   <div className='card-footer'>
                     <a href='https://github.com/Rachelnk/Fund-Flow'> <img src={github} alt="github" width={30}/> </a>
@@ -58,13 +59,13 @@ function Portfolio () {
         <div className='col-md-4'>
             <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)',  marginTop: '10px'}}>
               <div className='card-header'>
-                <h5 className='port-heading'>The Gram Connect</h5>
+                <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='port-heading'>The Gram Connect</h5>
               </div>
                 <div className='card-body'>
                     
                     <img src={insta} alt='insta-project' className='card-img-top image-resize'/>
                     <p className='project-details'>This application is an Instagram clone where users can share photos, comment and like other user's posts.</p>
-                      <h5 className='languages'>html | css | js | django</h5>
+                      <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='languages'>html | css | js | django</h5>
                     </div>
                   <div className='card-footer'>
                     <a href='https://github.com/Rachelnk/Instagram-Clone'> <img src={github} alt="github" width={30}/> </a>
@@ -77,13 +78,13 @@ function Portfolio () {
           <div className='col-md-4 '>
             <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)',  marginTop: '10px'}}>
               <div className='card-header'>
-                <h5 className='port-heading'> NeighborhoodWatch - Jirani Connect</h5>
+                <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='port-heading'> NeighborhoodWatch - Jirani Connect</h5>
               </div>
                 <div className='card-body'>
                     
                     <img src={hood} alt='jirani-connect' className='card-img-top image-resize'/>
                     <p className='project-details'>With this application allows users to join a neighborhood, add posts about upcoming neighborhood events, security updates and power outage alerts. Users can also add businesses. They also have access to police and health department telephone number. </p>
-                      <h5 className='languages'>html | css | js | django</h5>
+                      <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='languages'>html | css | js | django</h5>
                    </div>
                   <div className='card-footer'>
                     <a href='https://github.com/Rachelnk/NeighborhoodWatch'> <img src={github} alt="github" width={30}/> </a>
@@ -96,13 +97,13 @@ function Portfolio () {
           <div className='col-md-4'>
             <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)',  marginTop: '10px'}}>
               <div className='card-header'>
-                <h5 className='port-heading'>Tech Project Awards</h5>
+                <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='port-heading'>Tech Project Awards</h5>
               </div>
                 <div className='card-body'>
                     
                     <img src={awards} alt='tech-project-awards' className='card-img-top image-resize'/>
                     <p className='project-details'>This platform allows users to upload their projects. Users can also rate the available projects based on content, design and usability.</p>
-                      <h5 className='languages'>html | css | js | django</h5>
+                      <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='languages'>html | css | js | django</h5>
                     </div>
                   <div className='card-footer'>
                     <a href='https://github.com/Rachelnk/ProjectAwards'> <img src={github} alt="github" width={30}/> </a>
@@ -115,13 +116,13 @@ function Portfolio () {
           <div className='col-md-4'>
             <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)',  marginTop: '10px'}}>
               <div className='card-header'>
-                <h5 className='port-heading'>Kiarie's Gallery</h5>
+                <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='port-heading'>Kiarie's Gallery</h5>
               </div>
                 <div className='card-body'>
                     
                     <img src={gallery} alt='insta-project' className='card-img-top image-resize'/>
                       <p className='project-details'>This is a personal gallery whereby users can view uploaded images, search for pictures in certain categories i.e. art, food, travel. They can also view filter images by location. Users can share the images by copying the image link.</p>
-                      <h5 className='languages'>html | css | js | django</h5>
+                      <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='languages'>html | css | js | django</h5>
                      
                    </div>
                   <div className='card-footer'>
@@ -140,13 +141,13 @@ function Portfolio () {
         <div className='col-md-4'>
             <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)',  marginTop: '10px'}}>
               <div className='card-header'>
-                <h5 className='port-heading'>One Minute Pitch</h5>
+                <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='port-heading'>One Minute Pitch</h5>
               </div>
                 <div className='card-body'>
                     
                     <img src={pitch} alt='insta-project' className='card-img-top image-resize'/>
                     <p className='project-details'>This is a web application that displays pitches in different categories i.e. business, job, advertisement, that have been made by users. Users comment on the pitches as well as upvote or downvote them only if they have an account and are logged in.</p>
-                      <h5 className='languages'>html | css | js | flask</h5>
+                      <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='languages'>html | css | js | flask</h5>
                   </div>
                   <div className='card-footer'>
                     <a href='https://github.com/Rachelnk/OneMinutePitch'> <img src={github} alt="github" width={30}/> </a>
@@ -159,13 +160,13 @@ function Portfolio () {
           <div className='col-md-4'>
             <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)',  marginTop: '10px'}}>
               <div className='card-header'>
-                <h5 className='port-heading'>NewsApp</h5>
+                <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='port-heading'>NewsApp</h5>
               </div>
                 <div className='card-body'>
                     
                     <img src={newsapp} alt='insta-project' className='card-img-top image-resize'/>
                     <p className='project-details'>This is a web application consumes the <b><a href='https://newsapi.org/'>newsapi.org </a></b> API and in turn displays different categories i.e. business, technology, of news sources e.g. CNN, Indpendent.</p>
-                      <h5 className='languages'>html | css | js | flask</h5>
+                      <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='languages'>html | css | js | flask</h5>
                    </div>
                   <div className='card-footer'>
                     <a href='https://github.com/Rachelnk/NewsApp'> <img src={github} alt="github" width={30}/> </a>
@@ -184,12 +185,12 @@ function Portfolio () {
             <div className='col-md-4'>
             <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)',  marginTop: '10px'}}>
               <div className='card-header'>
-                <h5 className='port-heading'>Github Repo Search</h5>
+                <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='port-heading'>Github Repo Search</h5>
               </div>
                 <div className='card-body'>
                     
                     <img src={reposearch} alt='insta-project' className='card-img-top image-resize'/>
-                      <h5 className='languages'>html | css | angular</h5>
+                      <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='languages'>html | css | angular</h5>
                       <p className='project-details'>This application enables users to search for GitHub repositories as well as Github users.</p>
                      </div>
                   <div className='card-footer'>
@@ -203,12 +204,12 @@ function Portfolio () {
           <div className='col-md-4'>
             <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)',  marginTop: '10px'}}>
               <div className='card-header'>
-                <h5 className='port-heading'>Quotes Generator</h5>
+                <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='port-heading'>Quotes Generator</h5>
               </div>
                 <div className='card-body'>
                     
                     <img src={quotes} alt='quotes' className='card-img-top image-resize'/>
-                      <h5 className='languages'>html | css | angular</h5>
+                      <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='languages'>html | css | angular</h5>
                       <p className='project-details'>This application provides an interface for users to create quotes and have those quotes upvoted or downvoted depending on whether they are inspirational or not by other users.</p>
                   </div>
                   <div className='card-footer'>
@@ -232,13 +233,13 @@ function Portfolio () {
             <div className='col-md-4'>
             <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)',  marginTop: '10px'}}>
               <div className='card-header'>
-                <h5 className='port-heading'>Kiarie's Pizza Joint</h5>
+                <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='port-heading'>Kiarie's Pizza Joint</h5>
               </div>
                 <div className='card-body'>
                     
                     <img src={pizza} alt='pizza app' className='card-img-top image-resize'/>
                     <p className='project-details'>This is a pizza restaurant website whereby users can view the menu for the pizza flavors available, their prices and make orders.</p>
-                      <h5 className='languages'>html | css | js | jquery</h5>
+                      <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='languages'>html | css | js | jquery</h5>
                     </div>
                   <div className='card-footer'>
                     <a href="https://github.com/Rachelnk/Pizza-Application"> <img src={github} alt="github" width={30}/> </a>
@@ -251,13 +252,13 @@ function Portfolio () {
           <div className='col-md-4'>
             <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)',  marginTop: '10px'}}>
               <div className='card-header'>
-                <h5 className='port-heading'>Delani Studio</h5>
+                <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='port-heading'>Delani Studio</h5>
               </div>
                 <div className='card-body'>
                     
                     <img src={delani} alt='Delani-Studio' className='card-img-top image-resize'/>
                     <p className='project-details'>The website showcases Delani Studio's products and portfolio.</p>
-                      <h5 className='languages'>html | css | js | jquery</h5>
+                      <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='languages'>html | css | js | jquery</h5>
                    </div>
                   <div className='card-footer'>
                     <a href='https://github.com/Rachelnk/DelaniStudio'> <img src={github} alt="github" width={30}/> </a>

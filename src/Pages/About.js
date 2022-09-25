@@ -6,7 +6,7 @@ function About () {
     <>
     <div className='row'>
       
-      <h1 className='heading w3-animate-left' style={{paddingBottom:'20px', textAlign:'center'}}>About Me</h1>
+      <h1 className='heading w3-animate-left' style={{paddingBottom:'20px', textAlign:'center', fontFamily: 'Libre Caslon Text, serif'}}>About Me</h1>
       <div className='col-md-6'>
      
       <div>

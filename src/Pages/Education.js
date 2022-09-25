@@ -3,25 +3,25 @@ import './Education.css';
 function Education(){
   return(
     <>
-     <h1 className='heading w3-animate-left' style={{textAlign: "center", paddingBottom: '10px', paddingTop: '10px'}}>Education And Work Experience</h1>
+     <h1 className='heading w3-animate-left' style={{textAlign: "center", paddingBottom: '10px', paddingTop: '10px', fontFamily: 'Libre Caslon Text, serif'}}>Education And Work Experience</h1>
          
     <div className='row w3-animate-left'>
-    <h3 style={{textDecoration: "underline", marginBottom:'20px', textAlign: 'center'}}>Work Experience</h3>
+    <h3 style={{textDecoration: "underline", marginBottom:'20px', textAlign: 'center',fontFamily: 'Libre Caslon Text, serif'}}>Work Experience</h3>
        
       
       <div className='col-md-6 '> 
       <div className=''>
-         <h3> Freelance Developer</h3>
+         <h3 style={{fontFamily: 'Libre Caslon Text, serif'}}> Freelance Developer</h3>
           <button className='edu-btn'>March 2019 - Present</button> <br></br>      
            <p>As a freelancer  I've been working on solo projects as well collaborating with others.</p>
            < hr style={{color: 'white'}}/>
         </div>
          <div className=''>
-         <h3> <a style={{textDecoration: 'none'}} href='https://andela.com/'>Andela Kenya</a></h3>
+         <h3 style={{fontFamily: 'Libre Caslon Text, serif'}}> <a style={{textDecoration: 'none'}} href='https://andela.com/'>Andela Kenya</a></h3>
 
         
         
-          <h2>Software Development trainee</h2> <br></br>
+          <h2 style={{fontFamily: 'Libre Caslon Text, serif'}}>Software Development trainee</h2> <br></br>
           <button className='edu-btn'>Feb 2019 - March 2019</button> <br></br>      
            <p>As a trainee I was part of the boot camp to gain an employment opportunity at Andela .
 Unfortunately, I did not make it through the end of the boot camp, however I gained skills
@@ -29,9 +29,9 @@ in python, collaboration and version control using Github and Git</p>
         </div>
         < hr style={{color: 'white'}}/>
         <div className=''>
-        <h3> <a style={{textDecoration: 'none'}} href='https://www.intmedicaltreatment.com/'>International Medical Treatment</a></h3>
+        <h3 style={{fontFamily: 'Libre Caslon Text, serif'}}> <a style={{textDecoration: 'none'}} href='https://www.intmedicaltreatment.com/'>International Medical Treatment</a></h3>
            
-          <h2>Web Developer</h2> 
+          <h2 style={{fontFamily: 'Libre Caslon Text, serif'}}>Web Developer</h2> 
           <button className='edu-btn'>November 2018 — Feb 2019</button> <br></br>      
            <p>
            I worked on the Company's websites <a style={{textDecoration: 'none'}} href= "https://www.intmedicaltreatment.com/">International Medical Treatment </a>and <a style={{textDecoration: 'none'}} href= 'myhealthafrica.com/'>My Health Africa</a>, adding new pages and
@@ -48,9 +48,9 @@ new features i.e. Doctor SignUp forms, Search Function etc.
         
 
         <div className=''>
-        <h2 style={{fontFamily: 'Abel, sans-serif'}}>Mambo Software</h2>
+        <h2 style={{ fontFamily: 'Libre Caslon Text, serif'}}>Mambo Software</h2>
          
-          <h3>Junior Software Developer</h3>
+          <h3 style={{fontFamily: 'Libre Caslon Text, serif'}}>Junior Software Developer</h3>
            <button className='edu-btn'>October 2017 — October 2018</button> <br></br>      
            <p>
            I worked in a team developing desktop applications in VB.net using Visual Studio 2010,
@@ -68,9 +68,9 @@ new features i.e. Doctor SignUp forms, Search Function etc.
         </div>
         < hr style={{color: 'white'}}/>
         <div className=''>
-        <h3> <a style={{textDecoration: 'none'}} href='http://www.kplc.co.ke/'>Kenya Power and Lighting Company</a></h3>
+        <h3 style={{fontFamily: 'Libre Caslon Text, serif'}}> <a style={{textDecoration: 'none'}} href='http://www.kplc.co.ke/'>Kenya Power and Lighting Company</a></h3>
 
-          <h2>Intern, IT Support</h2> 
+          <h2 style={{fontFamily: 'Libre Caslon Text, serif'}}>Intern, IT Support</h2> 
           <button className='edu-btn'>Feb 2016 - July 2016</button> <br></br>      
            <p>As an intern I did the following:</p>
             <ul className='description-list'>
@@ -91,22 +91,22 @@ Crimping)</li>
 
     </div>
     <div className='row w3-animate-right'>
-    <h3 style={{textDecoration: "underline", marginBottom:'20px', textAlign: 'center', marginTop: '40px'}}>Education</h3>
+    <h3 style={{textDecoration: "underline", marginBottom:'20px', textAlign: 'center', marginTop: '40px', fontFamily: 'Libre Caslon Text, serif'}}>Education</h3>
    
       <div className='col-md-6'>
           <div className=''>
-              <h3><i className='fas fa-book-open' style={{fontSize:'24px', marginRight: '15px'}}></i>   CERTIFICATE - Full Stack Software Development</h3> <br></br>          
+              <h3 style={{fontFamily: 'Libre Caslon Text, serif'}}><i className='fas fa-book-open' style={{fontSize:'24px', marginRight: '15px'}}></i>   CERTIFICATE - Full Stack Software Development</h3> <br></br>          
               <span><i className='far fa-calendar-alt' style={{fontSize: '24px', color: 'white', marginRight: '20px'}}></i>   <button className='edu-btn'>Feb 2022 - July 2022</button></span> <br></br> 
-              <h3><i className='fas fa-school' style={{fontSize: '24px', marginRight: '15px'}}></i><a style={{textDecoration: 'none'}} href='https://moringaschool.com/'> Moringa School</a></h3>
+              <h3 style={{fontFamily: 'Libre Caslon Text, serif'}}><i className='fas fa-school' style={{fontSize: '24px', marginRight: '15px'}}></i><a style={{textDecoration: 'none'}} href='https://moringaschool.com/'> Moringa School</a></h3>
               
             </div>
             < hr style={{color: 'white'}}/>
           
             <div className=''>
-            <h3><i className='fas fa-book-open' style={{fontSize:'24px', marginRight: '15px'}}></i>  B.SC. Business Information Technology </h3> <br></br>
+            <h3 style={{fontFamily: 'Libre Caslon Text, serif'}}><i className='fas fa-book-open' style={{fontSize:'24px', marginRight: '15px'}}></i>  B.SC. Business Information Technology </h3> <br></br>
             <span><i className='far fa-calendar-alt' style={{fontSize: '24px', color: 'white', marginRight: '20px'}}></i><button className='edu-btn'>Sept 2013 - June 2017</button> <br></br></span>
-            <h3><i className='fas fa-school' style={{fontSize: '24px', marginRight: '15px'}}></i><a style={{textDecoration: 'none'}} href='http://www.jkuat.ac.ke/'> Jomo Kenyatta University Of Agriculture and Technology</a></h3>
-                <h3><i className='fas fa-graduation-cap' style={{fontSize:'36px'}}></i>Attained a Second-Class Upper Honours</h3>
+            <h3 style={{fontFamily: 'Libre Caslon Text, serif'}}><i className='fas fa-school' style={{fontSize: '24px', marginRight: '15px'}}></i><a style={{textDecoration: 'none'}} href='http://www.jkuat.ac.ke/'> Jomo Kenyatta University Of Agriculture and Technology</a></h3>
+                <h3 style={{fontFamily: 'Libre Caslon Text, serif'}}><i className='fas fa-graduation-cap' style={{fontSize:'36px'}}></i>Attained a Second-Class Upper Honours</h3>
               < hr style={{color: 'white'}}/>
             </div>
 
@@ -120,7 +120,6 @@ Crimping)</li>
       </div>
     
     </div>
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossOrigin='anonymous'></script>
     </>
   )
 }
