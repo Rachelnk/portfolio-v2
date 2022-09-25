@@ -21,7 +21,7 @@ function Education(){
 
         
         
-          <h2>Software Developer trainee</h2> <br></br>
+          <h2>Software Development trainee</h2> <br></br>
           <button className='edu-btn'>Feb 2019 - March 2019</button> <br></br>      
            <p>As a trainee I was part of the boot camp to gain an employment opportunity at Andela .
 Unfortunately, I did not make it through the end of the boot camp, however I gained skills

@@ -5,10 +5,10 @@ import About from './Pages/About';
 import Portfolio from './Pages/Portfolio';
 import Education from './Pages/Education';
 import ContactMe from './Pages/Contact';
-import github from './icons/github.png';
-import linkedin from './icons/linkedin .png'
-import resume from './portfolio/Resume.pdf'
-import email from './icons/email.png'
+import resume from './portfolio/Resume.pdf';
+// import github from './icons/github.png';
+// import linkedin from './icons/linkedin .png'
+// import email from './icons/email.png'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
      
      <nav className='navbar navbar-expand-lg navbar-dark sticky-top'>
         <div className="container-fluid">
-          <a className="navbar-brand" href="#home"><span className='dev-name1'>Rachel.</span><span className='dev-name2'>nk</span> </a>
+          <a className="navbar-brand" href="#home"><span className='dev-name1' style={{ marginLeft: '40px'}}>Rachel.</span><span className='dev-name2'>nk</span> </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -51,11 +51,11 @@ function App() {
         
         <div id="contact"><ContactMe /></div>
       </div>
-      <div className='social-icons w3-animate-bottom'>
+      {/* <div className='social-icons w3-animate-bottom'>
       <a href='https://www.linkedin.com/in/rachael-kiarie/' > <img src={linkedin} alt='' width='40' style={{marginBottom:'10px'}}/> </a>
         <a href='https://github.com/Rachelnk'><img src={github} alt='' width='40'style={{marginBottom:'10px'}}/> </a>
         <a href='mailto:rachelnk94@gmail.com'><img src={email} alt='' width='40'/></a>        
-      </div>
+      </div> */}
      {/* </div> */}
      
     
