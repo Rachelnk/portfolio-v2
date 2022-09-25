@@ -6,12 +6,13 @@ return (
   
 
   <>
+
   <div className='row'>
     
     <div className='intro' >
     <div className="col-md-12" style={{paddingBottom: '40px'}}>
 
-<h1 className='greetings w3-animate-right' style={{fontSize: '20px', marginTop:'110px'}}> Hi, my name is,</h1>
+<h1 className='greetings w3-animate-right' style={{fontSize: '20px', marginTop:'110px', fontFamily: 'Libre Caslon Text, serif'}}> Hi, my name is,</h1>
 
 <p style={{fontSize:'60px', color:'#6cebeb', }} className='typed-item w3-animate-left'>Rachel Kiarie.</p>
 <p style={{fontSize:'60px', color:'#6cebeb', marginBottom:'20px'}} className='typed-item w3-animate-left'>
