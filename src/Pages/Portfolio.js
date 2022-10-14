@@ -12,6 +12,7 @@ import quotes from  '../portfolio/quotes.png';
 import reposearch from '../portfolio/reposearch.png';
 import delani from '../portfolio/delani.png';
 import pizza from '../portfolio/pizzaApp.png';
+import worthwink from '../portfolio/worthwink.png'
 import { Tabs, Tab } from 'react-bootstrap';
 import { useState } from 'react';
 
@@ -46,7 +47,7 @@ function Portfolio () {
                   </div>
                   <div className='card-footer'>
                     <a href='https://github.com/Rachelnk/Fund-Flow'> <img src={github} alt="github" width={30}/> </a>
-                    <a href='https://rachelnk.github.io/fund-flow'> <img src={link} alt="site link" width={30}/> </a>
+                    <a href='https://Rachelnk.github.io/Fund-Flow'> <img src={link} alt="site link" width={30}/> </a>
                   
                   </div>
 
@@ -78,12 +79,12 @@ function Portfolio () {
           <div className='col-md-4 '>
             <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)',  marginTop: '10px'}}>
               <div className='card-header'>
-                <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='port-heading'> NeighborhoodWatch - Jirani Connect</h5>
+                <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='port-heading'>  Jirani Connect</h5>
               </div>
                 <div className='card-body'>
                     
                     <img src={hood} alt='jirani-connect' className='card-img-top image-resize'/>
-                    <p className='project-details'>With this application allows users to join a neighborhood, add posts about upcoming neighborhood events, security updates and power outage alerts. Users can also add businesses. They also have access to police and health department telephone number. </p>
+                    <p className='project-details'>This app allows users to join a neighborhood, add posts about upcoming neighborhood events, security updates and power outage alerts. They also have access to police and health department telephone number. </p>
                       <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='languages'>html | css | js | django</h5>
                    </div>
                   <div className='card-footer'>
@@ -224,6 +225,25 @@ function Portfolio () {
         </Tab>
         <Tab eventKey='react' title='React'>
           <div className='row'>
+          <div className='col-md-4'>
+            <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)',  marginTop: '10px'}}>
+              <div className='card-header'>
+                <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='port-heading'>Worthwink Investment Limited</h5>
+              </div>
+                <div className='card-body'>
+                    
+                    <img src={worthwink} alt='pizza app' className='card-img-top image-resize'/>
+                    <p className='project-details'>A portfolio for a general supplies company detailing information about their company, products, and contacts.</p>
+                      <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='languages'>html | css | react</h5>
+                    </div>
+                  <div className='card-footer'>
+                    <a href="https://github.com/Rachelnk/Pizza-Application"> <img src={github} alt="github" width={30}/> </a>
+                    <a href="https://kiaries-pizza-joint.netlify.app/"> <img src={link} alt="site link" width={30}/> </a>
+                  
+                  </div>
+
+            </div>
+          </div>
 
           </div>
 

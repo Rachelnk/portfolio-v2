@@ -1,6 +1,7 @@
 .card {
   background-color: hsl(264,34%,45%);
   margin-bottom: 15px;
+  height: 100%;
 }
 
 .card-footer{

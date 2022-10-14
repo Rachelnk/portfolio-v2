@@ -23,20 +23,15 @@ function App() {
             <span className="navbar-toggler-icon"></span>
           </button>
             <div className="collapse navbar-collapse" id="collapsibleNavbar">
-            
                     <ul className='navbar-nav mx-auto >'> 
                     
-                    <li className='nav-item' style={{fontSize: '30px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#about">About</a></li>
+                      <li className='nav-item' style={{fontSize: '30px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#about">About</a></li>
                       <li className='nav-item' style={{fontSize: '30px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#education">Education</a></li>
                       <li className='nav-item' style={{fontSize: '30px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#portfolio">Portfolio</a></li>
                       <li className='nav-item' style={{fontSize: '30px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href="#contact">Contact</a></li>
                       <li className='nav-item' style={{fontSize: '30px', padding: '0 20px', paddingTop: '10px !important'}}><a className="nav-link" href={resume} target="_blank" style={{border:'1px solid #6cebeb', justifyContent: 'center'}} rel="noreferrer">Resume</a></li>
-                      
-                      
-                    </ul>
-                     
-                 
-                 
+                                            
+                    </ul>                                    
             </div>    
           </div>       
            
