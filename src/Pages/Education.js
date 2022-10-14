@@ -5,10 +5,10 @@ function Education(){
   return(
     <>  
     
-     <div className='row w3-animate-left'>
+     <div className='row w3-animate-left' style={{marginTop: '80px'}}>
      <h1 className='heading w3-animate-left' style={{textAlign: "left", paddingBottom: '10px', paddingTop: '10px', fontFamily: 'Libre Caslon Text, serif'}}><span style={{color: '#6cebeb', fontSize: '25px'}}>03. </span>Experience and Education</h1>
      
-     <div >
+     <div style={{marginTop: '20px'}}>
      <Tab.Container id="left-tabs-example" defaultActiveKey="first" >
       <Row>
         <Col sm={3}>
@@ -118,17 +118,34 @@ Crimping)</li>
     </div>
     <div className='row w3-animate-right'>
     <h3 style={{textDecoration: "underline", marginBottom:'20px', textAlign: 'center', marginTop: '40px', fontFamily: 'Libre Caslon Text, serif'}}>Education</h3>
-   
-      <div className='col-md-6'>
-          <div className=''>
+
+    <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+      <Row>
+        <Col sm={3}>
+          <Nav variant="pills" className="flex-column">
+            <Nav.Item>
+              <Nav.Link eventKey="first">Moringa School</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="second">JKUAT</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="third">Online Certificates</Nav.Link>
+            </Nav.Item>
+          </Nav>
+        </Col>
+        <Col sm={9}>
+          <Tab.Content>
+            <Tab.Pane eventKey="first">
+            <div className=''>
               <h3 style={{fontFamily: 'Libre Caslon Text, serif'}}>CERTIFICATE - Full Stack Software Development</h3> <br></br>          
               <span> <button className='edu-btn'>Feb 2022 - July 2022</button></span> <br></br> 
               <h3 style={{fontFamily: 'Libre Caslon Text, serif'}}>           
                 <a style={{textDecoration: 'none'}} href='https://moringaschool.com/'> Moringa School</a><img src="https://www.flaticon.com/free-icon/university_864102" width='30' alt=''/></h3>
               
             </div>
-            < hr style={{color: 'white'}}/>
-          
+            </Tab.Pane>
+            <Tab.Pane eventKey="second">
             <div className=''>
             <h3 style={{fontFamily: 'Libre Caslon Text, serif'}}> B.SC. Business Information Technology </h3> <br></br>
             <span><button className='edu-btn'>Sept 2013 - June 2017</button> <br></br></span>
@@ -136,15 +153,29 @@ Crimping)</li>
                 <h3 style={{fontFamily: 'Libre Caslon Text, serif'}}>Attained a Second-Class Upper Honours</h3>
               < hr style={{color: 'white'}}/>
             </div>
-
-      </div>
-      <div className='col-md-6'>
-        <h4>Online Certificates</h4>
+            </Tab.Pane>
+            <Tab.Pane eventKey="third">
+            <div className=''>
+        
         
       <a style={{textDecoration: 'none'}} href='https://www.linkedin.com/learning/certificates/62756bf81074727bcd1c4811fcaaaad7e17d844dc22bd56bf5ac505cd0d0792d'><p className='online-certs'>React.js Essential Training<br></br>LinkedIn Learning <i className='arrow right' style={{fontSize: '30px', float: 'right'}}></i></p></a>
       <a style={{textDecoration: 'none'}} href='https://www.linkedin.com/learning/certificates/2e54bfacf96e7ab65e2cd99fb9ac25eea1fe31ed1426c9fbc66e438e44efe78d'><p className='online-certs'>React Hooks<br></br>LinkedIn Learning<i className='arrow right' style={{fontSize: '30px', float: 'right'}}></i></p></a>
       <a style={{textDecoration: 'none'}} href='https://www.linkedin.com/learning/certificates/3eaed944a07f50678ca90e3f3cb9e194f044f0141c4cd5a56185a07ac83daf59'> <p className='online-certs'>React.js: Building an Interface<br></br>LinkedIn Learning <i className='arrow right' style={{fontSize: '30px', float: 'right'}}></i></p></a> 
       </div>
+            </Tab.Pane>
+          </Tab.Content>
+        </Col>
+      </Row>
+    </Tab.Container>
+   
+      <div className='col-md-6'>
+          
+            
+          
+           
+
+      </div>
+      
     
     </div>
     </>
