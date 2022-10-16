@@ -15,6 +15,7 @@ import pizza from '../portfolio/pizzaApp.png';
 import worthwink from '../portfolio/worthwink.png'
 import { Tabs, Tab } from 'react-bootstrap';
 import { useState } from 'react';
+import { Zoom } from "react-awesome-reveal";
 
 // import akan from '../portfolio/delani.png'
 
@@ -25,10 +26,10 @@ function Portfolio () {
   
   return(
     <>
-    {/* style={{fontFamily: 'Libre Caslon Text, serif'}} */}
-    <h1 style={{textAlign: 'center', fontFamily: 'Libre Caslon Text, serif'}} className='heading w3-animate-left'>Portfolio</h1>
+    <Zoom triggerOnce="true">
+    <h1 style={{textAlign: 'center', fontFamily: 'Libre Caslon Text, serif', color: '#6cebeb'}} className='heading '><span style={{color: '#6cebeb', fontSize: '25px'}}>02. </span>Portfolio</h1>
     
-    <div className='row w3-animate-left'>
+    <div className='row '>
       <div className='col-md-12'> 
    
     <Tabs activeKey={tabKey} onSelect={(e) => initTabKey(e)}>
@@ -297,7 +298,7 @@ function Portfolio () {
      
     </div>
      
-    
+    </Zoom>
     </>
   )
   }

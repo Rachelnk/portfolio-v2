@@ -1,6 +1,8 @@
 import './Home.css';
 import '../index.css'
 
+import { Slide } from "react-awesome-reveal";
+
 function Home () { 
 return (
   
@@ -11,14 +13,19 @@ return (
     
     <div className='intro' >
     <div className="col-md-12" style={{paddingBottom: '40px'}}>
+<Slide triggerOnce='true' direction='right'>
+<h1 className='greetings' style={{fontSize: '20px', marginTop:'110px', fontFamily: 'Libre Caslon Text, serif'}}> Hi, my name is,</h1>
+</Slide>
 
-<h1 className='greetings w3-animate-right' style={{fontSize: '20px', marginTop:'110px', fontFamily: 'Libre Caslon Text, serif'}}> Hi, my name is,</h1>
-
-<p style={{fontSize:'60px', color:'#6cebeb', }} className='typed-item w3-animate-left'>Rachel Kiarie.</p>
-<p style={{fontSize:'60px', color:'#6cebeb', marginBottom:'20px'}} className='typed-item w3-animate-left'>
+<Slide triggerOnce='true' direction='left'>
+<p style={{fontSize:'60px', color:'#6cebeb', }} className='typed-item'>Rachel Kiarie.</p>
+<p style={{fontSize:'60px', color:'#6cebeb', marginBottom:'20px'}} className='typed-item'>
 A Fullstack Software Developer. </p>
-<p style={{fontSize: '30px'}} className='w3-animate-right'>Specializing in both<br></br>
+</Slide>
+<Slide triggerOnce='true' direction='right'>
+<p style={{fontSize: '30px'}}>Specializing in both<br></br>
  <b>front-end and back-end</b> software development.</p>
+ </Slide>
 </div>
 
     </div>
