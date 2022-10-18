@@ -50,3 +50,6 @@ a{
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg)
 }
+.nav-company{
+  color: #6cebeb !important;
+}

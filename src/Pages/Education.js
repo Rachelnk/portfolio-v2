@@ -15,21 +15,21 @@ function Education(){
      <Tab.Container id="left-tabs-example" defaultActiveKey="first" >
       <Row>
         <Col sm={3}>
-          <Nav variant="tabs" className="flex-column">
+          <Nav variant="tabs" className="flex-column" >
             <Nav.Item>
-              <Nav.Link eventKey="first" style={{fontSize: '30px !important'}}>Freelance</Nav.Link>
+              <Nav.Link eventKey="first" className="nav-company" >Freelance</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="second">Andela Kenya</Nav.Link>
+              <Nav.Link eventKey="second" className="nav-company">Andela Kenya</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="third">International Medical Treatment</Nav.Link>
+              <Nav.Link eventKey="third" className="nav-company">International Medical Treatment</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="fourth">Mambo Software</Nav.Link>
+              <Nav.Link eventKey="fourth" className="nav-company">Mambo Software</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="fifth">KPLC</Nav.Link>
+              <Nav.Link eventKey="fifth" className="nav-company">KPLC</Nav.Link>
             </Nav.Item>
           </Nav>
         </Col>
@@ -126,13 +126,13 @@ Crimping) </p>
         <Col sm={3}>
           <Nav variant="tabs" className="flex-column">
             <Nav.Item>
-              <Nav.Link eventKey="first">Moringa School</Nav.Link>
+              <Nav.Link eventKey="first" className="nav-company">Moringa School</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="second">JKUAT</Nav.Link>
+              <Nav.Link eventKey="second" className="nav-company">JKUAT</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="third">Online Certificates</Nav.Link>
+              <Nav.Link eventKey="third" className="nav-company">Online Certificates</Nav.Link>
             </Nav.Item>
           </Nav>
         </Col>
