@@ -32,8 +32,8 @@ function Portfolio () {
     <div className='row '>
       <div className='col-md-12'> 
    
-    <Tabs activeKey={tabKey} onSelect={(e) => initTabKey(e)}>
-        <Tab eventKey='fullstack' title='Full Stack'>
+    <Tabs activeKey={tabKey} onSelect={(e) => initTabKey(e)} className="stack" >
+        <Tab eventKey='fullstack' className="stack" title='Full Stack'>
         <div className='row'>
         <div className='col-md-4' >
             <div className='card' style={{backgroundColor: 'hsl(264,34%,45%)',  marginTop: '10px'}}>
@@ -238,8 +238,8 @@ function Portfolio () {
                       <h5 style={{fontFamily: 'Libre Caslon Text, serif'}} className='languages'>html | css | react</h5>
                     </div>
                   <div className='card-footer'>
-                    <a href="https://github.com/Rachelnk/Pizza-Application"> <img src={github} alt="github" width={30}/> </a>
-                    <a href="https://kiaries-pizza-joint.netlify.app/"> <img src={link} alt="site link" width={30}/> </a>
+                    <a href="https://github.com/Rachelnk/worthwink"> <img src={github} alt="github" width={30}/> </a>
+                    <a href="https://worth-wink.netlify.app/"> <img src={link} alt="site link" width={30}/> </a>
                   
                   </div>
 
